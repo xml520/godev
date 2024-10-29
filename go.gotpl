@@ -1,0 +1,6 @@
+{{/* gotype: github.com/xml520/godev.Generate */}}
+{{define "-./{{.Names.String}}.text"}}
+{{ range $field := .Fields}}
+    {{$field.Label}}
+{{end}}
+{{end }}
